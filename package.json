@@ -1,0 +1,20 @@
+{
+  "name": "nats",
+  "version": "1.0.0",
+  "description": "Nats CORE and Jet Stream for request response & pub-sub message broker implementation.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "scripts": {
+    "dev": "npx ts-node index.ts",
+    "client": "npx ts-node client/index.ts",
+    "server": "npx ts-node server/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "nats": "^2.15.1"
+  }
+}
